@@ -1,0 +1,2 @@
+{"level":"info","ts":"2022-10-21T19:52:31.369-0300","caller":"cmd/http.main.go:14","msg":"Inicializando webapp"}
+{"level":"info","ts":"2022-10-21T19:53:31.613-0300","caller":"cmd/http.main.go:14","msg":"Inicializando webapp"}
