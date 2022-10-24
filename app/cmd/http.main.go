@@ -1,8 +1,6 @@
 package main
 
 import (
-	"github.com/gofiber/fiber/v2"
-	"github.com/jmoiron/sqlx"
 	"github.com/rcastillo9x/go-ms-boilerplate/app/internal/webapp"
 	"github.com/rcastillo9x/go-ms-boilerplate/app/platform/enviroment"
 	"github.com/rcastillo9x/go-ms-boilerplate/app/platform/weblog"
@@ -21,10 +19,5 @@ func main() {
 
 	// Start server on port 3000
 	app.Listen(HTTP_PORT)
-
-}
-
-func registerURI(app *fiber.App, db *sqlx.DB) {
-	webapp.Register(app)
 
 }
